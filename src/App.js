@@ -1,10 +1,11 @@
-
-import './App.css';
-
 function App() {
-  return (
-   <div> Hello </div>
-  );
-}
+    const handleClick = () => {
 
+    }
+
+    return (<div className="App">
+
+        <button onClick={handleClick}>click</button>
+    </div>);
+}
 export default App;
